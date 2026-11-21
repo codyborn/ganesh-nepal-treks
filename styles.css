@@ -89,10 +89,10 @@ img { max-width: 100%; display: block; }
 .trek-art .tag { position: absolute; top: 14px; left: 14px; background: rgba(255,255,255,.92); color: var(--ink); font-size: .75rem; font-weight: 600; padding: 4px 10px; border-radius: 999px; }
 /* Gradient stand-ins. Swap for photos: background-image: url(images/manaslu.jpg); */
 .art-manaslu { background: url(images/trail-prayer-flags.jpg) center 40%/cover no-repeat; }
-.art-manaslu::after { display: none; }
-.art-everest { background: linear-gradient(160deg, #a9c3e3 0%, #4f6f9e 55%, #24365c 100%); }
-.art-annapurna { background: linear-gradient(160deg, #f2b46b 0%, #b5694a 50%, #4a3a5c 100%); }
-.art-abc { background: linear-gradient(160deg, #9ccf9a 0%, #4f8f6a 50%, #24454a 100%); }
+.trek-art::after { display: none; }
+.art-everest { background: url(images/everest.jpg) center 35%/cover no-repeat; }
+.art-annapurna { background: url(images/annapurna-circuit.jpg) center 40%/cover no-repeat; }
+.art-abc { background: url(images/abc-machhapuchhare.jpg) center 30%/cover no-repeat; }
 .trek-art::after { content: ""; position: absolute; inset: auto 0 0 0; height: 70%; background: no-repeat bottom/100% 100% url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 120' preserveAspectRatio='none'%3E%3Cpath d='M0 120 L0 80 L60 50 L110 75 L180 15 L240 70 L300 40 L360 72 L400 55 L400 120 Z' fill='%23ffffff' fill-opacity='.18'/%3E%3Cpath d='M180 15 L165 35 L178 31 L190 40 L196 30 Z' fill='%23ffffff' fill-opacity='.85'/%3E%3C/svg%3E"); }
 .trek-body { padding: 24px 26px 26px; }
 .trek-body h3 { font-size: 1.45rem; }
@@ -157,6 +157,8 @@ details p { color: var(--ink-soft); margin: 0 0 18px; }
 .footer { background: var(--night); color: #cfd7e8; }
 .footer-inner { padding: 32px 20px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
 .footer p { margin: 0; }
+.credits { margin: 0 auto !important; padding: 0 20px 24px; font-size: .75rem; color: #8f9ab3; }
+.credits a { color: #b9c3d8; }
 .footer a { color: #fff; }
 .small { font-size: .88rem; }
 
